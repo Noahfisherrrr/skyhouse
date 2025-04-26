@@ -1,0 +1,188 @@
+/* fonts */
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helvetica/HELVETICA\ NEUE\ LT\ GEO\ 55\ ROMAN.TTF') format('truetype');
+    src: url('../fonts/helvetica/HelveticaNeueLTGEO-55Roman.woff') format('woff');
+    src: url('../fonts/helvetica/HelveticaNeueLTGEO-55Roman.woff2') format('woff2');
+    font-weight: regular;
+    font-style: regular;
+}
+/* reset */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.container {
+    width: 100%;
+    max-width: 74.6875rem;
+    margin: 0 auto;
+    padding: 0;
+}
+/* header */
+header {
+    background-color: #0020F4;
+    width: 100%;
+    height: 24.2225rem;
+    margin: 0;
+    padding-top: 1.625rem;
+}
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo {
+    width: 7.1875rem;
+    height: 4.0625rem;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-left: auto;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:0rem;
+    padding: 0;
+}
+.nav-list > li{
+    font-family: "HelveticaNeue", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    color: #707070;
+    letter-spacing: 0rem;
+}
+.nav-list li:hover {
+    text-decoration: underline;
+    text-decoration-color: #374dde;
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.25rem;
+}
+.nav-list li:nth-child(1) {
+    margin-right: 2.6875rem;
+}
+.nav-list li:nth-child(2) {
+    margin-right: 3.3125rem;
+}
+.nav-list li:nth-child(3) {
+    margin-right: 2.8125rem;
+}
+.nav-list li:nth-child(4) {
+    margin-right: 2.625rem;
+}
+.nav-list li:nth-child(5) {
+    margin-right: 2.625rem;
+}
+
+.header-btn{
+    display: block;
+    width: 10rem;
+    height: 3.4375rem;
+    color: #171717;
+    font-family: "HelveticaNeue", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+    border: solid 0rem;
+    border-radius: 28px;
+    cursor: pointer;
+    display:block;
+    margin-right: -7.3125rem;
+    
+}
+.header-btn:hover{
+    background-color: #374dde;
+    color: #FFFFFF;
+}
+/* main content */
+.main-image{
+    width: 74.6875rem;
+    height: 37.5rem;
+    margin-top: -13.4375rem;
+    border: solid 0rem;
+    border-radius: .9375rem;
+}
+.main-text {   
+    font-family: "HelveticaNeue", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.125rem;
+    color: #171717;
+    margin: 1.875rem auto 0;
+}
+.img-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5625rem;
+    margin-top: 3.75rem;
+}
+.imgage-box{
+    width: 13.6875rem
+    height: 13.6875rem;
+    border: solid 0rem;
+    border-radius: .9375rem;
+}
+article {
+    max-width: 59.4375rem;
+    width: 100%;
+    justify-content: center;    
+    align-items: center;
+    gap: 1.125rem;
+    margin-top: 3.75rem auto 0;
+}
+article>p{
+    display: block;
+    /* justify-content: center;
+    align-items: center; */
+    max-width: 59.4375rem;
+    margin: 1.125rem auto 0;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+article p:nth-child(1){
+    font-family: "HelveticaNeue", Arial, sans-serif;
+}
+article p:nth-child(2){
+    font-family: "ALK Life", sans-serif;;
+}
+article p:nth-child(3){
+    font-family: "HelveticaNeue", Arial, sans-serif;
+}
+.add-info-btn{
+    margin: 58px auto 0;
+    display: block;
+    width: 21.3125rem;
+    height: 3.4375rem;
+    color: #FFFFFF;
+    font-family: "HelveticaNeue", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color:#0A22F4;
+    border: solid 0rem;
+    border-radius: 28px;
+    cursor: pointer;
+}
+.add-info-btn:hover{
+    background-color: #374dde;
+    color: #FFFFFF;
+}
+/* footer */
+footer{
+    background-color: #0A22F4;
+    padding: 3.5rem 0;
+    margin-top: 11.25rem;
+    width: 100%;
+}
